@@ -78,3 +78,19 @@ body {
 .margin-top-content {
 	margin-top: 12rem;
 }
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	column-gap: 30px;
+	row-gap: 30px;
+	margin-top: 20px;
+	justify-items: center;
+}
+.grid-container > div {
+	text-align: center;
+	align-self: center;
+}
+.grid-container > div > p {
+	margin-top: 10px;
+}
