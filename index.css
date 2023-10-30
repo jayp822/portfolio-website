@@ -28,7 +28,6 @@ body {
 	padding-right: 3rem /* 40px */;
 }
 
-
 .gcsu-width-height {
 	width: 100px;
 	height: 100px;
@@ -71,6 +70,11 @@ body {
 	opacity: 1;
 }
 
-
-
-
+.footer-p {
+	margin: 0;
+	text-align: center;
+	color: #9191a4;
+}
+.margin-top-content {
+	margin-top: 12rem;
+}
